@@ -234,5 +234,3 @@ $$
 $$
 
 If $r = 0$ the network is neutral, if $r < 0$ it is disassortative otherwise assortative.
-
-### Network models
