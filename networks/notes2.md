@@ -309,7 +309,7 @@ $$
 
 Making the same chain of calculations this result in a degree distibution that is not scale free $p_{k} = (e^{1-k/m})/m$, therefore preferential attachement is truly necessary.
 
-To calculate the clustering coefficient in the Barabási-Albert model we should ask the quation of what the probability is that node $i$ intorduced at $t_{i}$ is connected to node $j$ introduced at $t_{j}$.
+To calculate the clustering coefficient in the Barabási-Albert model we should ask the question of what the probability is that node $i$ intorduced at $t_{i}$ is connected to node $j$ introduced at $t_{j}$.
 
 $$
     P(i - j) = mP_{i} = m\frac{k_{i}}{2mt} = \frac{k_{i}}{2t} = m\Big(\frac{t_{j}}{t_{i}}\Big)^{1/2}\frac{1}{2t_{j}} = \frac{m}{2}(t_{i}t_{j})^{-1/2}

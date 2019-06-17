@@ -59,7 +59,7 @@ In the dense case the average connections per node goes to infinity. ($< k > = \
 - diameter: $D = max_{ij} \{ l_{ij} \}$
 - ***centrality*** : $C_{c}(i) = \frac{1}{<l_{i}>}$ where unreachable nodes are not considered in the sum $\rightarrow$ intuitively a node closer to the rest of the network is more central
 
-- ***betweenness*** : of a node or link is equal to the number of shortest path passing through a given node or link, if multiple shortest paths are possible between a given pair of nodes then they are given equal weidghts and adding up to one:
+- ***betweenness*** : of a node or link is equal to the number of shortest path passing through a given node or link, if multiple shortest paths are possible between a given pair of nodes then they are given equal weights and adding up to one:
  
  $$b_{i} = \sum_{v \neq i, s \neq i} \frac{\sigma_{sv}(i)}{\sigma_{sv}}$$
 
